@@ -12,13 +12,17 @@ import SignInPage from './page/SignIn.jsx'
 import SignUpPage from './page/SignUp'
 import DashboardPage from './page/Dashboard'
 import WebSockets from './page/WebSockets'
+import MiniTracker from './page/BtsuDept'
+import BtsuKline from './page/BtsuKline'
  
 const router = createBrowserRouter([
   {
     element: <RootLayout />,
     children: [
       { path: "/", element: <DashboardPage /> },
-      { path: "'/web-sockets'", element: <WebSockets /> },
+      { path: "/web-sockets", element: <WebSockets /> },
+      { path: "/dept-sockets", element: <MiniTracker /> },
+      { path: "/kline-sockets", element: <BtsuKline /> },
       { path: "/contact", element: <ContactPage /> },
       { path: "/sign-in", element: <SignInPage /> },
       { path: "/sign-up", element: <SignUpPage /> },

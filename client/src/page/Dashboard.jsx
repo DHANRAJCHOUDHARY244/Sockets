@@ -60,7 +60,7 @@ const Dashboard = () => {
       </form>
 
       <Container>
-        {console.log(msgArray)}
+        {/* {console.log(msgArray)} */}
         {msgArray.map((item, index) => (
           <Card sx={{ width:'80%',mt:'10px',mb:'10px',p:'10px' }} key={index}>
             <CardActionArea>

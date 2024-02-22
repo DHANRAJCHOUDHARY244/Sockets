@@ -26,6 +26,16 @@ const pages = [
         link: '/web-sockets',
         name: 'WebSockets'
     },
+    {
+        id: 2,
+        link: '/dept-sockets',
+        name: 'DeptWebSockets'
+    },
+    {
+        id: 3,
+        link: '/kline-sockets',
+        name: 'KlineWebSockets'
+    },
 ];
 
 function Header() {
